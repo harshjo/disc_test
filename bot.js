@@ -18,7 +18,11 @@ client.on('message', message => {
 
        message.reply('Tu randi ka baccha');
 
-       }
+    }
+    else if (message.content === "madarchod") {
+
+        message.reply('Tu Madarchod');
+    }
 
 });
 
