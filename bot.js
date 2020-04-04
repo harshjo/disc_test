@@ -23,9 +23,6 @@ client.on('message', message => {
 
         message.reply('Tu Madarchod');
     }
-    else{
-        message.reply('Whatever bro!');
-    }
 
 });
 
