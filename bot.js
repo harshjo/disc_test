@@ -26,6 +26,17 @@ client.on('message', message => {
 
 });
 
+client.on("message", message=>{
+    if(message.content === "what is my avatar?"){
+        message.reply(message.author.displayAvatarURL);
+    }
+});
+client.on("message", message=>{
+    if(message.content === "who am i?"){
+        message.reply(message.author);
+    }
+});
+
  
 
 // THIS  MUST  BE  THIS  WAY
