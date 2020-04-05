@@ -19,23 +19,22 @@ client.on('message', message => {
        message.reply('Tu randi ka baccha');
 
     }
-    else if (message.content === "madarchod") {
-
-        message.reply('Tu Madarchod');
-    }
-
-});
-
-client.on("message", message=>{
     if(message.content === "what is my avatar?"){
         message.reply(message.author.displayAvatarURL);
     }
+
 });
-client.on("message", message=>{
-    if(message.content === "who am i?"){
-        message.reply(message.author);
-    }
-});
+
+// client.on("message", message=>{
+//     if(message.content === "what is my avatar?"){
+//         message.reply(message.author.displayAvatarURL);
+//     }
+// });
+// client.on("message", message=>{
+//     if(message.content === "who am i?"){
+//         message.reply(message.author);
+//     }
+// });
 
  
 
