@@ -25,9 +25,9 @@ client.on('message', message => {
     if(message.content === "who am i?"){
         console.log(message.author.username)
         message.reply(message.author);
-        // if (message.author.username === "@lemón"){
-        //     message.reply("Harsh");
-        // }lemón
+        if (message.author.username === "lemón"){
+             message.reply("Harsh");
+         }
     }
 });
 
