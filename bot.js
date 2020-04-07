@@ -14,17 +14,19 @@ client.on('ready', () => {
 
 client.on('message', message => {
 
-    if (message.content === 'Randi ke bacche') {
-
-       message.reply('Tu randi ka baccha');
-
+    if (message.content === 'Randi ke bacche' || message.content === 'randi ke bacche') {
+        if(message.author.username === "lemón"){
+            message.reply("lemon bhaiya, Gaal ni Kadni")
+        }
+        else
+            message.reply('Tu randi ka baccha');
     }
     if(message.content === "what is my avatar?"){
         message.reply(message.author.displayAvatarURL);
     }
     if(message.content === "who am i?"){
         console.log(message.author.username)
-        message.reply(message.author);
+        //message.reply(message.author);
         if (message.author.username === "lemón"){
              message.reply("Harsh");
          }
