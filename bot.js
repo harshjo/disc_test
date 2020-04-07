@@ -23,11 +23,11 @@ client.on('message', message => {
         message.reply(message.author.displayAvatarURL);
     }
     if(message.content === "who am i?"){
-        console.log(message.author)
+        console.log(message.author.username)
         message.reply(message.author);
-        // if (message.author == "@lemón"){
+        // if (message.author.username === "@lemón"){
         //     message.reply("Harsh");
-        // }
+        // }lemón
     }
 });
 
