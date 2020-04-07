@@ -16,7 +16,7 @@ client.on('message', message => {
 
     if (message.content === 'Randi ke bacche' || message.content === 'randi ke bacche') {
         if(message.author.username === "lemón"){
-            message.reply("lemon bhaiya, Gaal ni Kadni")
+            message.reply("bhaiya, Gaal ni Kadni")
         }
         else
             message.reply('Tu randi ka baccha');
@@ -29,7 +29,10 @@ client.on('message', message => {
         //message.reply(message.author);
         if (message.author.username === "lemón"){
              message.reply("Harsh");
-         }
+        }
+        if (message.author.username === "AnkleHead"){
+            message.reply("Rituraj");
+       }
     }
 });
 
