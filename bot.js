@@ -14,12 +14,12 @@ client.on('ready', () => {
 
 client.on('message', message => {
 
-    if (message.content === 'Randi ke bacche' || message.content === 'randi ke bacche') {
+    if (message.content === 'Randi ke bacche' || message.content === 'test') {
         if(message.author.username === "lemón"){
-            message.reply("bhaiya, Gaal ni Kadni")
+            message.reply("reply")
         }
         else
-            message.reply('Tu randi ka baccha');
+            message.reply('blub blub');
     }
     if(message.content === "what is my avatar?"){
         message.reply(message.author.displayAvatarURL);
